@@ -28,6 +28,13 @@ md"""
 # ╔═╡ ac4494c2-fcea-4caf-8d48-4ae57a8e2f1d
 LocalResource(joinpath(homedir(), "github", "web", "images", "pic03.jpg"), :width => 400)
 
+# ╔═╡ 58a9d214-182a-4030-9ee5-09a014a1353a
+md"""
+Allowing stakeholders to interact with their data in dashboards has several benefits that can greatly enhance their ability to understand and use the data effectively.
+
+Firstly, interactive dashboards enable stakeholders to customize the data visualizations based on their specific needs and interests. For example, they can filter the data by certain criteria, drill down into specific subsets of the data, or adjust the time frame of the data being displayed. This level of customization enables stakeholders to focus on the most relevant information and gain deeper insights into their data.
+"""
+
 # ╔═╡ 0e75132c-63ae-42b5-b927-110fb3ff8919
 begin 
 	X = @bind xF Slider(1:.1:5, default=1.5)
@@ -53,13 +60,24 @@ begin
 end
 
 # ╔═╡ d51882df-92a6-417c-8ba9-85dc1b4ea43c
+md"""
+interactive dashboards allow stakeholders to discover new insights and patterns that may not be apparent in static reports. By enabling stakeholders to manipulate the data and explore different scenarios, they can uncover new relationships and trends that can inform their decision-making.
 
+Dashboards can help stakeholders communicate their findings to others more effectively. Dashboards that are interactive and dynamic can be used to support presentations or share findings with colleagues, clients, or other stakeholders. This can lead to better collaboration, more informed decision-making, and improved outcomes.
+
+Overall, allowing stakeholders to interact with their data in dashboards can improve their ability to understand, analyze, and communicate their findings effectively. It can lead to more informed decision-making, better collaboration, and improved outcomes, making it a crucial tool for organizations across a wide range of industries.
+"""
+
+# ╔═╡ 0f2e254e-821d-4e53-bfea-678b39aba1fa
+md"""
+#### [Sign Up](#)
+
+"""
 
 # ╔═╡ 82ee0262-a7e9-41b5-9767-bf16f4704265
-
-
-# ╔═╡ bc5306e2-9983-4164-b5bc-ab3f151bbaa6
-
+md"""
+#### [Back to Home](index.html)
+"""
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1024,10 +1042,11 @@ version = "1.4.1+0"
 # ╟─eba3562e-e625-11ed-28b9-b987d3f553d0
 # ╟─d4a0d493-64e3-487d-b439-e6fc51197c0e
 # ╟─ac4494c2-fcea-4caf-8d48-4ae57a8e2f1d
+# ╟─58a9d214-182a-4030-9ee5-09a014a1353a
 # ╟─0e75132c-63ae-42b5-b927-110fb3ff8919
-# ╠═ed511ddc-bfcd-4269-abe3-d0fec2fc9b0d
-# ╠═d51882df-92a6-417c-8ba9-85dc1b4ea43c
-# ╠═82ee0262-a7e9-41b5-9767-bf16f4704265
-# ╠═bc5306e2-9983-4164-b5bc-ab3f151bbaa6
+# ╟─ed511ddc-bfcd-4269-abe3-d0fec2fc9b0d
+# ╟─d51882df-92a6-417c-8ba9-85dc1b4ea43c
+# ╟─0f2e254e-821d-4e53-bfea-678b39aba1fa
+# ╟─82ee0262-a7e9-41b5-9767-bf16f4704265
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
