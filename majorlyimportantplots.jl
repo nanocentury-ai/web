@@ -9,7 +9,7 @@ using RDatasets, DataFrames, Gadfly, PlutoUI
 
 # ╔═╡ b2809864-3e4c-4d76-9ded-3013f9fca920
 md"""
-# Majorly Important Plots
+# Your Insights, Elevated
 """
 
 # ╔═╡ b28f7cb5-0918-44f4-9f2b-c6492f28ee6f
@@ -33,8 +33,7 @@ Let's imagine we need to make basic assumptions clear, but also be completely tr
 Assumptions: 
 ```math
 \begin{align}
-1. X'X^{-1} X' Y \\
-2. 	\left(\frac{g}{k v_0\cos(\theta)} + \tan(\theta) \right) t + \frac{g}{k^2}\ln\left(1 - \frac{k}{v_0\cos(\theta)} t \right)
+ 	\left(\frac{g}{k v_0\cos(\theta)} + \tan(\theta) \right) t + \frac{g}{k^2}\ln\left(1 - \frac{k}{v_0\cos(\theta)} t \right)
 
 
 
